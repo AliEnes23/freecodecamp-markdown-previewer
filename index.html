@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+
+    <script src="src/marked.js" defer></script>
+    <script src="src/script.js" defer></script>
+
+    <title>FCC Markdown Previewer</title>
+  </head>
+  <body>
+    <div class="">
+      <div class="" id="mainContent">
+        <div id="editorDiv" class="p-5 border border-dark">
+          <div class="toolbar shadow" style="background-color: #4BA3A2;">
+            <span>Editor</span>
+            <img class="expand" src="src/assets/expand.png" alt="Expand Section" />
+          </div>
+
+          <textarea class="mb-2 shadow" rows="20" id="editor" style="background-color: #C0D9D9;"></textarea>
+        </div>
+
+        <div id="previewDiv" class=" border border-dark bg-dark">
+          <div class="toolbar shadow"  style="background-color: #4BA3A2;">
+            <span>Preview</span>
+            <img class="expand" src="src/assets/expand.png" alt="Expand Section" />
+          </div>
+          <div class="mb-2 shadow" id="preview" style="background-color: #C0D9D9;"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
